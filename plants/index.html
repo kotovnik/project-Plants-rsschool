@@ -10,7 +10,7 @@
 </head>
 <body>
     <header class="header">
-        <div class="header-wrapper
+        <div class="header-wrapper_padding
             container-desktop
             flex-wrapper_row
             flex-wrapper_space-between">
@@ -32,21 +32,39 @@
         </div>
     </header>
     <main class="main">
-        <section class="section-welcome_background">
-            
-        </section>
-        <section class="section-about_background">
-            <div class="about-wrapper container-desktop"></div>
-        </section>
-        <section class="section-service_background">
-            <div class="service-wrapper container-desktop"></div>
-        </section>
-        <section class="section-prices_background">
-            <div class="prices-wrapper container-desktop"></div>
-        </section>
-        <section class="section-contacts_background">
-            <div class="contacts-wrapper container-desktop"></div>
-        </section>
+        <div class="section-welcome_background">
+            <section class="section-welcome_padding
+                container-desktop
+                flex-wrapper_row
+                flex-wrapper_space-between">
+                <img src="./assets/img/leafs.png" alt="leaves" class="section-welcome__img">
+                <article class="section-welcome-article
+                    flex-wrapper_column
+                    flex-wrapper_space-evenly">
+                    <h2 class="section-welcome-article__h2">
+                        We grow <span class="section-welcome__span_color">plants</span> and give you oxygen
+                    </h2>
+                    <p class="section-welcome-article__p">
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
+                    </p>
+                    <a href="#" class="flex-wrapper_center section-welcome-article__a_button-learn-more section-welcome-article__a_button-learn-more-text">
+                            LEARN MORE
+                    </a>
+                </article>
+            </section>
+        </div>
+            <section class="section-about_background">
+                <div class="about-wrapper container-desktop"></div>
+            </section>
+            <section class="section-service_background">
+                <div class="service-wrapper container-desktop"></div>
+            </section>
+            <section class="section-prices_background">
+                <div class="prices-wrapper container-desktop"></div>
+            </section>
+            <section class="section-contacts_background">
+                <div class="contacts-wrapper container-desktop"></div>
+            </section>
     </main>
     <footer class="footer_background"></footer> 
 </body>

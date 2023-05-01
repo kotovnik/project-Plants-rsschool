@@ -65,16 +65,21 @@ body {
     justify-content: space-between;
 }
 
+.flex-wrapper_space-evenly {
+    justify-content: space-evenly;
+}
+
 .flex-wrapper_center {
     justify-content: center;
 }
 
 .header,
+.section-welcome_background,
 .background_light-green {
     background: var(--color-light-green-background-section);
 }
 
-.header-wrapper {
+.header-wrapper_padding {
     padding: 42px 109px;
 }
 
@@ -97,5 +102,66 @@ body {
 .header-nav__li {
     padding-left: 47px;
     list-style-type: none;
+}
+
+.section-welcome_padding {
+    padding: 58px 109px;
+}
+
+.section-welcome__img {
+    margin-top: -0.5em;
+    margin-left: -0.55em;
+
+}
+
+.section-welcome-article {
+    margin-right: 1%;
+    width: 44%;
+}
+
+.section-welcome-article__h2 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 110%;
+    color: var(--color-grey-text-title);
+    margin: 0;
+    margin-top: -0.2em;
+}
+
+.section-welcome__span_color {
+    color: var(--color-green-text-title);
+}
+
+.section-welcome-article__p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 175%;
+    color: var(--color-grey-text-paragraph);
+    margin: 0;
+}
+
+.section-welcome-article__a_button-learn-more {
+    width: 158px;
+    height: 44px;
+    background: var(--color-light-green-background-section);
+    border: 2px solid var(--color-orange-text-title);
+    border-radius: 10px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    margin-bottom: -0.6em;
+}
+
+.section-welcome-article__a_button-learn-more-text {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 125%;
+    color: var(--color-black-text-link);
 }
 
