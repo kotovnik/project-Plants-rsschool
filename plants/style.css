@@ -34,6 +34,7 @@
     --color-grey-text-title: #717171;
     --color-grey-text-paragraph: #636060;
     --color-black-text-link: #000000;
+    --color-green-border: #E3E1D5;
 }
 
 body {
@@ -124,7 +125,7 @@ body {
     width: 44%;
 }
 
-.section-welcome-article__h2 {
+.section-welcome-article__h1 {
     font-family: 'Inter';
     font-style: normal;
     font-weight: 700;
@@ -196,7 +197,8 @@ body {
 }
 
 .service-wrapper_padding {
-    padding: 5px 109px;
+    padding: 0 109px 70px;
+    flex-wrap: wrap;
 }
 
 .section-service__button {
@@ -219,7 +221,39 @@ body {
 }
 
 .section-service-wrapper-buttons {
-    margin-left: 13%;
+    margin-right: 17.5%;
     margin-top: 5.5%;
     gap: 38px;
+}
+
+.section-service-wrapper {
+    width: 330px;
+    height: 450px;
+    border-radius: 20px;
+    border: 2px solid var(--color-green-border);
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.section-service-wrapper_margin {
+    margin-bottom: 80px;
+    margin-top: 40px;
+}
+
+.section-service-wrapper__h3 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 100%;
+    color: var(--color-orange-text-title);
+    margin: 5px 0 0;
+}
+.section-service-wrapper__p {
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 125%;
+color: var(--color-grey-text-title);
 }
